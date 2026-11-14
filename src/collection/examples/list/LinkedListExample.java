@@ -6,14 +6,11 @@ import java.util.List;
 
 public class LinkedListExample {
     public static void main(String[] args) {
-
         // declaring list
         List<Integer> list1 = new LinkedList<>(); // {10,-34,0,null,23,-45,-90,100}
-
         // to store multiple kind of data in single list
         List<?> list2 = new LinkedList<>(); //{10,null,0,-34,"Hi",'t',false,4.56,5.67f}
         List<Object> list3 = new LinkedList<>(); //{10,null,0,-34,"Hi",'t',false,4.56,5.67f}
-
         // add data
         list1.add(23);
         list1.add(67);
@@ -25,7 +22,7 @@ public class LinkedListExample {
         //list1.add(null);
         list1.add(78);
         //list1.add(null);
-
+        //add some dummy lines
         System.out.println("list1 is :"+list1);
 
         // remove data
@@ -34,7 +31,7 @@ public class LinkedListExample {
 
         // size
         System.out.println("list1 size is : "+list1.size());
-
+//add some dummy lines
         // search
         System.out.println("list1 3rd index element is : "+list1.get(3));
         System.out.println("list1 5th index element is : "+list1.get(5));
