@@ -12,14 +12,12 @@ public class StackExample {
         stck1.push("Orange");
         stck1.push("Apple");
         stck1.push(null);
-
+//add some dummy lines
         System.out.println("stck1 is : "+stck1);
-
         stck1.pop();
         System.out.println("stck1 after 1st pop : "+stck1);
         stck1.pop();
         System.out.println("stck1 after 2nd pop : "+stck1);
-
         System.out.println("traverse using foreach loop");
         for (String s1 : stck1){
             System.out.println(s1);
